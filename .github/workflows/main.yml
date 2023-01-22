@@ -35,8 +35,8 @@ jobs:
                   allure_report: allure-report
                   
             - name: Deploy report to Github Pages
-              uses: JamesIves/github-pages-deploy-action@4.1.3
               if: always()
+              uses: peaceiris/actions-gh-pages@v3
               with:
-                branch: report
-                folder: allure-report
+                  publish_branch: gh-pages
+                  publish_dir: allure-history
