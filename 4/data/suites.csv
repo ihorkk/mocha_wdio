@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 22 14:02:27 GMT 2023","Sun Jan 22 14:02:28 GMT 2023","814","","Signup","","Signup","should not login with empty inputs","should not login with empty inputs",""
+"passed","Sun Jan 22 14:02:51 GMT 2023","Sun Jan 22 14:02:55 GMT 2023","4379","","Signup","","Signup","should sign up with valid credentials","should sign up with valid credentials",""
+"passed","Sun Jan 22 14:02:21 GMT 2023","Sun Jan 22 14:02:27 GMT 2023","5800","","Signup","","Signup","should login with valid credentials","should login with valid credentials",""
+"passed","Sun Jan 22 14:02:07 GMT 2023","Sun Jan 22 14:02:12 GMT 2023","5293","","Cart","","Cart","should add an item to the cart","should add an item to the cart",""
+"passed","Sun Jan 22 14:02:27 GMT 2023","Sun Jan 22 14:02:27 GMT 2023","418","","Signup","","Signup","should not login with invalid credentials","should not login with invalid credentials",""
+"passed","Sun Jan 22 14:02:55 GMT 2023","Sun Jan 22 14:02:56 GMT 2023","734","","Signup","","Signup","should not sign up with empty inputs","should not sign up with empty inputs",""
+"passed","Sun Jan 22 14:02:36 GMT 2023","Sun Jan 22 14:02:41 GMT 2023","5119","","Search bar","","Search bar","should enter value in the search bar and receive a result","should enter value in the search bar and receive a result",""
