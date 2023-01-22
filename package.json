@@ -1,0 +1,33 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "description": "",
+    "private": true,
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.26.0",
+        "@wdio/cli": "^7.26.0",
+        "@wdio/local-runner": "^7.26.0",
+        "@wdio/mocha-framework": "^7.26.0",
+        "@wdio/selenium-standalone-service": "^7.26.0",
+        "@wdio/spec-reporter": "^7.26.0",
+        "chance": "^1.1.9",
+        "chromedriver": "^109.0.0",
+        "wdio-chromedriver-service": "^8.0.0"
+    },
+    "scripts": {
+        "wdio": "wdio run configs/wdio.conf.js --spec signup.js --spec login.js --spec search.js --spec cart.js",
+        "signup": "wdio run configs/wdio.conf.js --spec signup.js",
+        "login": "wdio run configs/wdio.conf.js --spec login.js",
+        "search": "wdio run configs/wdio.conf.js --spec search.js",
+        "cart": "wdio run configs/wdio.conf.js --spec cart.js",
+        "allure:generate": "npx allure generate allure-results --clean",
+        "allure:open": "npx allure open",
+        "allure:clean": "rm -rf allure-results/* allure-report/*",
+        "chrome": "wdio run configs/wdio.chrome.conf.js",
+        "firefox": "wdio run configs/wdio.firefox.conf.js",
+        "edge": "wdio run configs/wdio.edge.conf.js"
+    }
+}
