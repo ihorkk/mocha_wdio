@@ -11,6 +11,7 @@ describe("Login", () => {
             email: Generate.generateEmail,
             password: Generate.generatePassword,
         });
+        await expect(browser).toHaveUrl("https://front.serverest.dev/home");
         await HomePage.logoutBtn.click();
     });
 
