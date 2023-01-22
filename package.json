@@ -26,8 +26,8 @@
         "allure:generate": "npx allure generate allure-results --clean",
         "allure:open": "npx allure open",
         "allure:clean": "rm -rf allure-results/* allure-report/*",
-        "chrome": "wdio run configs/wdio.chrome.conf.js",
-        "firefox": "wdio run configs/wdio.firefox.conf.js",
-        "edge": "wdio run configs/wdio.edge.conf.js"
+        "chrome": "wdio run configs/wdio.chrome.conf.js --spec signup.js --spec login.js --spec search.js --spec cart.js",
+        "firefox": "wdio run configs/wdio.firefox.conf.js --spec signup.js --spec login.js --spec search.js --spec cart.js",
+        "edge": "wdio run configs/wdio.edge.conf.js --spec signup.js --spec login.js --spec search.js --spec cart.js"
     }
 }

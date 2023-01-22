@@ -3,7 +3,7 @@ const Generate = require("../helper/chance");
 const SignUpPage = require("../pages/signup.page");
 const HomePage = require("../pages/home.page");
 
-describe("Signup", () => {
+describe("Login", () => {
     before("should create an account", async () => {
         SignUpPage.open();
         await SignUpPage.signup({
